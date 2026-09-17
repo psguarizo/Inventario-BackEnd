@@ -6,12 +6,12 @@
 }
 
 body {
-    background: #f4f6f9;
+    background-color: #f4f6f9;
     color: #333;
 }
 
-header, footer {
-    background: #0077cc;
+header {
+    background-color: #0077cc;
     color: white;
     text-align: center;
     padding: 20px;
@@ -23,16 +23,11 @@ main {
     margin: 30px auto;
 }
 
-form, table {
-    background: white;
+form {
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #ccc;
-}
-
-form {
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
 }
@@ -44,9 +39,9 @@ input {
 }
 
 input[type="submit"] {
-    background: #0077cc;
+    background-color: #0077cc;
     color: white;
-    border: 0;
+    border: none;
     cursor: pointer;
 }
 
@@ -54,10 +49,11 @@ table {
     width: 100%;
     margin-top: 30px;
     border-collapse: collapse;
+    background-color: white;
 }
 
 th {
-    background: #0077cc;
+    background-color: #0077cc;
     color: white;
     padding: 12px;
 }
@@ -68,5 +64,13 @@ td {
 }
 
 tr:nth-child(even) {
-    background: #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #0077cc;
+    color: white;
 }
