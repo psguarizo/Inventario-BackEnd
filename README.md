@@ -144,3 +144,27 @@ As rotas podem ser testadas utilizando ferramentas como Postman ou Insomnia para
 ![(print13)](./imagens/Captura%20de%20tela%202026-09-10%20161855.png)
 ![(print14)](./imagens/Captura%20de%20tela%202026-09-10%20161914.png)
 ![(print15)](./imagens/Captura%20de%20tela%202026-09-10%20161959.png)
+
+## Atualizações do Projeto
+
+### O que foi desenvolvido
+
+- Criação da interface web para o sistema de inventário.
+- Desenvolvimento de formulário para cadastro de itens.
+- Integração do frontend com a API REST.
+- Consumo de dados utilizando Fetch API.
+- Exibição dos itens cadastrados em tabela dinâmica.
+- Implementação de layout responsivo.
+- Estilização completa da aplicação com CSS.
+- Organização visual com cabeçalho, formulário, tabela e rodapé.
+
+### Tecnologias Utilizadas
+
+- Node.js
+- Express
+- JavaScript
+- JSON
+- API REST
+- HTML5
+- CSS3
+- Fetch API
